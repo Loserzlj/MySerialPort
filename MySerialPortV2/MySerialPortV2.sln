@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySerialPortV2", "MySerialPortV2.csproj", "{27239E44-076E-406B-B035-55297C1FADFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27239E44-076E-406B-B035-55297C1FADFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27239E44-076E-406B-B035-55297C1FADFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27239E44-076E-406B-B035-55297C1FADFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27239E44-076E-406B-B035-55297C1FADFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C9D2742-800A-424C-BEB5-B8FB93587AC5}
+	EndGlobalSection
+EndGlobal

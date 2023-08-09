@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"serialporttestdemo\startup_stm32f103xe.o"
+"serialporttestdemo\main.o"
+"serialporttestdemo\gpio.o"
+"serialporttestdemo\usart.o"
+"serialporttestdemo\stm32f1xx_it.o"
+"serialporttestdemo\stm32f1xx_hal_msp.o"
+"serialporttestdemo\stm32f1xx_hal_gpio_ex.o"
+"serialporttestdemo\stm32f1xx_hal_tim.o"
+"serialporttestdemo\stm32f1xx_hal_tim_ex.o"
+"serialporttestdemo\stm32f1xx_hal_uart.o"
+"serialporttestdemo\stm32f1xx_hal.o"
+"serialporttestdemo\stm32f1xx_hal_rcc.o"
+"serialporttestdemo\stm32f1xx_hal_rcc_ex.o"
+"serialporttestdemo\stm32f1xx_hal_gpio.o"
+"serialporttestdemo\stm32f1xx_hal_dma.o"
+"serialporttestdemo\stm32f1xx_hal_cortex.o"
+"serialporttestdemo\stm32f1xx_hal_pwr.o"
+"serialporttestdemo\stm32f1xx_hal_flash.o"
+"serialporttestdemo\stm32f1xx_hal_flash_ex.o"
+"serialporttestdemo\stm32f1xx_hal_exti.o"
+"serialporttestdemo\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "SerialPortTestDemo\SerialPortTestDemo.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "SerialPortTestDemo.map" -o SerialPortTestDemo\SerialPortTestDemo.axf
